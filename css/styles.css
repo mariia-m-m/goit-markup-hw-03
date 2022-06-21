@@ -123,8 +123,8 @@ color: var(--accent-color);}
 .hero {
 text-align:center;
 background-color: var(--background-color-dark);
-padding-left: 15px;
-padding-right: 15px;}
+padding: 200px 15px;}
+
 .hero-title {
 color: var(--secondary-text-color);
 background-color:var(--background-color-dark);
