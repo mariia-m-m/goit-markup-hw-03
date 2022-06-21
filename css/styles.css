@@ -181,9 +181,9 @@ margin-right: 30px;}
 
 /* Work-list */
 .section.works{
-    padding: 0px;
-    margin-bottom:47px;
+    padding: 0px 15px 94px;
 }
+
 .work-img{
 display: flex;
 }
@@ -217,7 +217,6 @@ margin-bottom: 10;}
 .text{margin-top: 0;}
 .section.command{
     background-color:var(--background-color-button);
-    margin-bottom: 47px;
 }
 /* Footer */
 .address {
