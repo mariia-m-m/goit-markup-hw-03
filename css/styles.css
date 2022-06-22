@@ -16,6 +16,9 @@ background-color:var(--primary-background-color);
 color: var(--primary-text-colour);
 font-family: Roboto, sans-serif;
 letter-spacing:0.03em;}
+a{
+text-decoration: none;
+}
 
 .visually-hidden{
 position: absolute;
@@ -46,7 +49,7 @@ overflow: hidden;}
 }
 
     /* Logo */
-.logo {
+.logo-header, .logo-footer{
 color: #000000;
 font-family: Raleway,sans-serif;
 font-weight:700;
@@ -126,7 +129,8 @@ color: var(--accent-color);}
 .hero {
 text-align:center;
 background-color: var(--background-color-dark);
-padding: 200px 15px;}
+padding-top: 200px;
+padding-bottom: 200px;}
 
 .hero-title {
 color: var(--secondary-text-color);
@@ -184,7 +188,7 @@ margin-right: 30px;}
 
 /* Work-list */
 .section.works{
-    padding: 0px 15px 94px;
+    padding: 0px 0px 94px;
 }
 
 .work-img{
@@ -202,9 +206,7 @@ display: flex;
 .command .item:not(:last-child){
 margin-right: 30px;
 }
-.photo{
-    margin-bottom: 30px;
-}
+
 .name{
 font-weight: 500;
 font-size: 16px;
@@ -219,9 +221,22 @@ margin-bottom: 10;}
     text-align: center;}
 .text{margin-top: 0;}
 .section.command{
-    background-color:var(--background-color-button);
-}
+    background-color:var(--background-color-button);}
+.name-command {
+    padding-top: 30px;
+    padding-bottom: 30px;}
+
 /* Footer */
+.logo-footer{
+margin-bottom: 20px;
+text-decoration: none;
+}
+.address-footer{
+    margin-bottom: 9px;
+}
+.mail{
+    margin-bottom: 9px;
+}
 .logo-white{
     color: var(--secondary-text-color);
 }
