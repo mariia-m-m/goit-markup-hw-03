@@ -340,6 +340,7 @@ background-color: var(--background-color-dark);}
             font-weight: 700;
             font-size: 18px;
             line-height: 2;
+            margin-bottom: 4px;
         }
     
         .example .type {
@@ -348,9 +349,10 @@ background-color: var(--background-color-dark);}
             line-height: 1.9;
         }
     
-        .example p {
+     p {
             margin: 0;
         }
+    
     
         .card-down {
             border: 1px solid var(--background-color-border-image-portfolio);
